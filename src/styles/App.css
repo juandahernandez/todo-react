@@ -1,0 +1,25 @@
+.App {
+  background-image: radial-gradient(
+    circle at 42.53% 48%,
+    #9163bc 0,
+    #523e7d 25%,
+    #19163a 50%,
+    #000000 75%,
+    #000000 100%
+  );
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  .todo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
